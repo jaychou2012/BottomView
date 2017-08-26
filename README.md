@@ -1,7 +1,7 @@
 BottomView
 ==========
 
-Android BottomView2014
+Android BottomView2014, update for Android Studio
 
 
 BottomView is for Android， you can easyly set a custom View to your App's bottom.
@@ -37,11 +37,8 @@ Copy this two style to your application res/values/styles.xml
         <item name="android:backgroundDimEnabled">false</item>
     </style>
 `
-Then res/values/color.xml  put
 
-`<color name="white">#ffffff</color>`
-
-if you want the bottomView has a animation,you can put the animation theme to the res/values/styles.xml
+if you want the bottomView has a animation,you can put the animation theme to the res/values/styles.xml  or user library inside anim.
 
 `<style name="BottomToTopAnim" parent="android:Animation">
         <item name="@android:windowEnterAnimation">@anim/bottomview_anim_enter</item>
@@ -69,9 +66,6 @@ res/anim/bottomview_anim_exit.xml
 
 </set>`
 
-Like this:
-![](http://img.blog.csdn.net/20140624223226218)
-
 # Key Code
 
 `BottomView bottomView = new BottomView(this,
@@ -82,4 +76,4 @@ Like this:
 If you want to get the view, use .getView()
 
 # Effect
-![](http://img.blog.csdn.net/20140624222106656)
+![](https://github.com/jaychou2012/BottomView/blob/master/Screenshot_20170826-132058.png)
